@@ -35,4 +35,4 @@ yarn run dev
 ### 1. Passport
 
 Passport is an **authentication middleware** that implements some methods and proprieties on `express` such as `req.isAuthenticated()` and `req.user`.
-These methods just work because we've configured the `express-session` earlier, and without other methods like `serialize` and `deserialize` **passport** would fail to retain the user's session.
+These attributes just work because we've configured the `express-session` earlier, and without other methods like `serialize` and `deserialize` **passport** would fail to retain the user's session.
