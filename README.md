@@ -2,7 +2,7 @@
 ![dependencies](https://img.shields.io/david/bryansouza/passport-project)
 ![typescript](https://img.shields.io/github/languages/top/bryansouza/passport-project)
 
-This project is a simple API in which uses Passport Authentication.
+This project is a simple API that uses Passport Authentication.
 
 ## Usage
 ### 1. Installing dependencies
