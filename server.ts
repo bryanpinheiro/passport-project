@@ -13,7 +13,6 @@ import initializePassportLocal from "./src/configs/passport-local-config";
 import { User } from "./src/interfaces";
 import { isAuthenticated, isNotAuthenticated } from "./src/middlewares";
 
-const HOSTNAME = process.env["HOSTNAME"] as string;
 const PORT = parseInt(process.env["PORT"] as string);
 const SESSION_SECRET = process.env["SESSION_SECRET"] as string;
 
@@ -88,6 +87,6 @@ app.delete("/logout", (req, res) => {
     res.redirect("/login");
 });
 
-app.listen(PORT, HOSTNAME, () => {
-    console.log(`Server running on http://${HOSTNAME}:${PORT}`);
+app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
 });
